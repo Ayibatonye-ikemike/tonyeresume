@@ -1,0 +1,114 @@
+{% load static %}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title> Ayibatonye Ikemike </title>
+    <link href="{% static '/css/base.css'  %}" rel="stylesheet" type="text/css">
+    	
+    	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">	
+
+</head>
+<body>
+	
+	<div style="margin:80px"> 		<h1>reach out to me</h1> 		
+
+<p>Please write your name, and email address, and send me a messgae,I will be happy to contact you directly and answer your questions as soon as possible.</p> 		
+	
+	<form action="/contact_address/" method="post"> <label for="Email_address">Enter email: </label> 
+	<input id= type="int" name="name_field" value="enter email address.">
+		</form>
+		
+			<form action="/contact_address/" method="post"> <label for="your_name">Enter name: </label> 
+	<input id= type="int" name="name_field" value="enter your full name.">
+			</form>
+			<form action=" id="usrform">
+</form>
+<br>
+<textarea rows="4" cols="50" name="comment" form="usrform">
+send me a message...</textarea>
+			<input type="submit" value="Submit">
+		</form> </div>
+	<br>	
+	<div class="container">		
+	<div class="row">			
+	<div class="col-md-3">				
+	<div class="card card-body h-100 border-info" id="profile-wrapper">
+		<img id="profile-pic" src="{% static 'images/Tonye.jpg' %} " width="400" height="500"/>
+		<hr>					
+		<h4>Hi I'm Ayibatonye!</h4>					
+		<p>I love coding, doing research and networking</p>
+	
+	</div>
+	</div>
+	
+<div class="col-md-9">
+	<div class="card card-body h-100">
+		<h4>My First App as a Developer</h4>				
+			<hr>				
+				<p>3 months after writing my first Hello World program on June 2021 (With my andriod phone) I had convinced myself to let me take a start at building apps on smartphone since I don't have a good computer.</p> 					
+		<p>Now, I have transitioned from writing Hello World to building an actual App on my smartphone as a newbie. </p> 					
+		<p>From this you will see that I'm someone that jumps before I can talk myself out of doing something scary.</p>
+		
+		<ul 
+class="social-links">						
+ <img class="social" src="{% static 'images/linkedln.png' %}"></li>						
+
+<li><img class="social" src="{% static 'images/Twitter.png' %}"></li>						
+
+</ul>
+
+</div>
+</div>
+</div
+	<br>
+	
+	<div class="row">
+<div class="col-md-6">
+	<div class="card card-body h-100">
+		
+		<h5>My Experience as a Developer</h5>				
+			<hr>					
+			<p>beginner full stack developer.</p>				
+		<p>Designed, built and managed a resume app as a sole developer on my smartphone</p>
+	</div>
+</div>
+
+<div class="col-md-6">
+	<div class="card card-body h-100">
+		
+		<h5>What I Know</h5>					<hr>					
+		<p>Python, Django, a bit of HTML/CSS,JavaScript;)</p>					<p>PS: Working on MySQL, and Machine Learning.</p>
+	</div>
+</div>
+</div>
+<br>
+	
+	<div class="row">			
+	<div class="col-md-6">				
+	<div class="card card-body h-100">
+		
+		<h5>How I Learn</h5>					<hr>					
+		<p>Research & Build Ugly Prototypes First.</p> 				
+			<p>I can learn just about anything by having a final product to tear apart piece by piece. I break the code where I need to figure out why things work the way they do. Documentation is just a reference.</p>				
+			</div>
+		</div>
+		</div>
+		
+		
+<div class="col-md-6">			
+	<div class="card card-body- h-100">
+		
+		<h5>My Short Term Goals</h5>				
+		<hr>			
+			<p>After three months of learning Python & Django I’m ready to learn something new. I'll collaborating and sharing my experience with others on my social media handles & youtube channel.</p>				
+<p>Aside from building small projects I would love to enter a position where I can be part of a bigger team & learn from others with more experience than myself.</p>
+		</div>
+		</div>
+</div>
+<br>
+	
+<div>
+</body>
+</html>
